@@ -1,8 +1,12 @@
 import React, { useMemo } from 'react'
 import { CivicAuthProvider } from "@civic/auth/react"
 // import {GatewayProvider} from "@civic/solana-gateway-react";
-import {ConnectionProvider, useConnection, useWallet, WalletProvider} from '@solana/wallet-adapter-react'
-import {clusterApiUrl, PublicKey} from "@solana/web3.js"
+import {ConnectionProvider, 
+    // useConnection, useWallet, 
+    WalletProvider} from '@solana/wallet-adapter-react'
+import {clusterApiUrl, 
+    // PublicKey
+} from "@solana/web3.js"
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base"
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui"
 const CLIENT_ID = import.meta.env.VITE_CLIENT_ID
