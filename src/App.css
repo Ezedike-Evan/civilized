@@ -9,43 +9,55 @@
 }
 
 body{
-  background-image: url('/background.gif');
+  background-image: url('/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
 img{
-  width:70px; 
-  height:70px;
+  width:40px; 
+  height:40px;
 }
 
 nav{
   display: flex;
-  justify-content: space-between;
-  padding: 10px 10px 80px;
+  justify-content: space-evenly;
+  padding: 10px 10px 125px;
 }
 
 h1{
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
+  font-weight: 700;
+}
+
+p{
+  font-weight: 600;
+  font-size: 20px;
+  margin: 20px 0 50px;
 }
 h4{
-  font-size:50px;
+  font-size:30px;
   text-transform:'uppercase';
-  letter-spacing:3px;
+  letter-spacing:2px;
 }
 
 .overlay{
-  backdrop-filter: brightness(40%);
+  backdrop-filter: brightness(30%);
   height: 100vh;
   width: 100%;
   padding: 30px 50px;
+  text-align: center;
 }
 button{
-  font-size: 30px !important;
-  letter-spacing: 3px;
+  outline: none;
+  border: 1px solid white !important;
+  font-size: 15px !important;
+  letter-spacing: 1.5px;
   font-weight: 700;
+  padding: 10px 20px !important;
   text-transform: capitalize;
 }
 button:hover{
@@ -80,7 +92,7 @@ button:hover{
   nav{
     display: flex;
     justify-content: space-between;
-    padding: 10px 10px 50px;
+    padding: 10px 10px 70px;
   }
   
   h1{

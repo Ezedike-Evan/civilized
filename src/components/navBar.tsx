@@ -7,7 +7,7 @@ const Navbar = ()=>{
                 <img src='/logo.avif'/>
                 <h4>Civilzed</h4>
             </div>
-            <UserButton className='btn'/>
+            <UserButton/>
         </nav>
     )
 }
